@@ -51,7 +51,7 @@ function install_laravel {
     pkg update && pkg upgrade -y
     pkg install php composer -y
 
-    printf "\033[1;94m[*]\033[0m Installing Laravel installer globally...\n"
+    printf "\033[1;94m[*]\033[0m Installing Laravel installer globally, Press ctrl + C if it gets stuck for a while...\n"
     composer global require laravel/installer --no-interaction
 
     config_laravel
