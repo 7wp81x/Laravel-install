@@ -5,6 +5,6 @@ Simple laravel installer on android via termux.
 curl -fsSL "https://raw.githubusercontent.com/7wp81x/Laravel-install/refs/heads/main/install.sh" | bash
 ```
 
-## Screenshot
+## Screenshots
 ![Installer Screenshot](screenshot.png)
-
+![Installer Screenshot](screenshot1.png)
